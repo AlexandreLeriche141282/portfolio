@@ -94,15 +94,6 @@ a:hover::after {
   }
 }
 
-#github i{
-  font-size: 50px;
-  position: absolute;
-  }
-
-  #github i:hover{
-    color: rgb(197,152,96);
-  }
-
 .img {
   height: 395px;
   width: 100vw;
@@ -176,6 +167,7 @@ header h2 {
 }
 .img1 {
   background: url(../img/moi.jpg) center/cover;
+  width: 50%;
 }
 .h2-wrapper {
   mix-blend-mode: exclusion;
