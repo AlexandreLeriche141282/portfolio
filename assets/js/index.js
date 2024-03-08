@@ -6,8 +6,8 @@ const scroll = new LocomotiveScroll({
 });
 // Arrow up
 const faArrowUp = document.querySelector(".fa-arrow-up")
-// let arrowUp = document.querySelector(".arrowUp")
-const arrowUp = document.querySelector('.arrowUp');
+// // let arrowUp = document.querySelector(".arrowUp")
+// const arrowUp = document.querySelector('.arrowUp');
 
 // arrowUp.addEventListener('click', () => {
 
