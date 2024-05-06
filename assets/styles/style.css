@@ -284,9 +284,10 @@ margin-right: 100px;
   align-items: center;
   justify-content: space-between;
   padding-top: 10px;
-  width: 150px;
+  width: 180px;
   @media screen and (max-width:650px){
     padding-top: 5px;
+    width: 80px;
   }
 }
 footer {
