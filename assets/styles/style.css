@@ -166,12 +166,16 @@ header h2 {
   margin: 400px 0 250px;
 }
 .img1 {
-  background: url(../img/moi.jpg) center/cover;
+  background: url(../img/moi.webp) center/cover;
   width: 50%;
+  border-radius: 10px;
 }
 .h2-wrapper {
   mix-blend-mode: exclusion;
   margin: -220px 0 200px;
+}
+.h2-wrapper.is-inview{
+margin-right: 100px;
 }
 .about p {
   width: 70%;
@@ -210,6 +214,13 @@ header h2 {
 .projects-container {
   margin-top: 100px;
 }
+.projects-container img{
+  /* height: 350px; */
+  @media screen and (max-width:650px) {
+  
+}
+}
+
 .project {
   position: relative;
   width: 60vw;
@@ -251,17 +262,32 @@ header h2 {
   position: absolute;
   top: 50%;
   transform: translate(-50px, -50%);
-  margin-left: 8vw;
+  margin-left: 7vw;
   transition: 0.4s ease-out;
   opacity: 0;
 }
 .project-infos a {
-  font-size: calc(1rem + 3vw);
+  font-size: calc(0.7rem + 3vw);
 }
 .project-infos p {
-  font-size: 2rem;
+  font-size: calc(1rem + 2vw);
   margin-top: 1.5vw;
   color: #fefeff;
+}
+#icon{
+  width: calc(10px + 2vw);
+  filter: none;
+  
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 150px;
+  @media screen and (max-width:650px){
+    padding-top: 5px;
+  }
 }
 footer {
   margin: 150px 0 120px;
@@ -297,7 +323,7 @@ footer a {
 .img.img2 i:hover{
   color: rgb(197,152,96);
 }
-.fa-arrow-up{
+/* .fa-arrow-up{
   
   border-radius: 30px;
   border:solid 1px rgb(255, 255, 255);
@@ -312,4 +338,4 @@ footer a {
  position:fixed;
  cursor: pointer;
   
-}
+} */
