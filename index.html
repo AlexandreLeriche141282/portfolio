@@ -152,7 +152,9 @@
           <span data-scroll data-scroll-speed="0">o</span>
         </h2>
         <div class="projects-container">
+          
           <div data-scroll data-scroll-speed="1" class="project" id="p3">
+            
             <img src="./assets/img/project/kasa.webp" alt="agence de locations d'appartements entre particuliers" />
             <div class="project-infos">
               <a href="https://alexandreleriche141282.github.io/kasa" target="_blank">Kasa</a>
@@ -161,8 +163,10 @@
                 <img src="./assets/img/icon-stack/react-2.svg" alt="" id="icon">
                 <img src="./assets/img/icon-stack/sass-1.svg" alt="" id="icon">
                 <img src="./assets/img/icon-stack/nodejs-icon.svg" alt="" id="icon">
+                <img src="./assets/img/icon-stack/html-1.svg" alt="" id="icon">
               </div>
             </div>
+            
           </div>
           <div data-scroll data-scroll-speed="1" class="project" id="p2">
             <img src="./assets/img/project/patisserie-salon-de-the.webp" alt="pâtisserie et salon de thé au Mans" />
@@ -173,6 +177,7 @@
                 <img src="./assets/img/icon-stack/html-1.svg" alt="" id="icon">
                 <img src="./assets/img/icon-stack/sass-1.svg" alt="" id="icon">
               </div>
+              
             </div>
           </div>
           <div data-scroll data-scroll-speed="1" class="project" id="p1">
@@ -216,48 +221,69 @@
       </div>
 
       <footer>
-        <div class="wrapper">
-          <div data-scroll class="appear">
-            <p>Vous avez un projet ?</p>
+        <div class="contact">
+          <div class="wrapper">
+            <div data-scroll class="appear">
+              <p>Vous avez un projet ?</p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div data-scroll class="appear" id="l2">
+              <p>
+                Je serai ravi d'en
+                <a href="mailto:alexandreleriche141282@gmail.com">discuter</a>
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div data-scroll class="appear" id="l3">
+              <p>avec vous</p>
+            </div>
+          </div>
+          <div
+            data-scroll
+            data-scroll-speed="7"
+            data-scroll-position="bottom"
+            class="img-wrapper"
+          >
+            <div class="img img2">
+              <img src="./assets/img/tasse-café.jpg" id="cup" alt="tasse à café">
+              <a href="https://github.com/AlexandreLeriche141282" target="_blank"><i class="fa-brands fa-github" ></i></a>
+              <a href="https://www.linkedin.com/in/alexandre-leriche-1b16b9248/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+              <a href="mailto:alexandreleriche141282@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
           </div>
         </div>
-        <div class="wrapper">
-          <div data-scroll class="appear" id="l2">
-            <p>
-              Je serai ravi d'en
-              <a href="mailto:alexandreleriche141282@gmail.com">discuter</a>
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div data-scroll class="appear" id="l3">
-            <p>avec vous</p>
-          </div>
-        </div>
-        <div
-          data-scroll
-          data-scroll-speed="7"
-          data-scroll-position="bottom"
-          class="img-wrapper"
-        >
-          <div class="img img2">
-            <img src="./assets/img/tasse-café.jpg" id="cup" alt="tasse à café">
-            <a href="https://github.com/AlexandreLeriche141282" target="_blank"><i class="fa-brands fa-github" ></i></a>
-            <a href="https://www.linkedin.com/in/alexandre-leriche-1b16b9248/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
-            <a href="mailto:alexandreleriche141282@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-            
-          </div>
-        </div>
+      
+        <!-- Formulaire -->
+        <div class="contact-form">
+          
+          <form id="validation" method="post" action="https://formspree.io/f/xkndyaqg">
+            <label for="name"></label>
+            <input type="text" id="name" name="firstname" placeholder="nom *" required>
     
-        <br /><br /><br />
-        
+            <label for="sujet"></label>
+            <input type="text" id="sujet" name="sujet" placeholder="sujet *" required>
+    
+            <label for="emailAddress"></label>
+            <input id="email" type="email" name="email" placeholder="email *" required>
+    
+            <label for="tel"></label>
+            <input type="tel" id="telephone" name="telephone" placeholder="téléphone">
+    
+    
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="message *"
+              required></textarea>
+    
+            <input type="submit" value="Envoyer" id="inputButton">
+    
+          </form>
+        </div>
       </footer>
+      
      
     </div>
-    <!-- <div class="arrowUp">
-      <a href="#portfolio" data-scroll-to><i class="fa-solid fa-arrow-up"></a></i>
-    </div> -->
-    
     <script src="./assets/lib/locomotive-scroll.min.js"></script>
     <script src="./assets/js/index.js"></script>
   </body>
