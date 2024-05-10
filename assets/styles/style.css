@@ -330,21 +330,26 @@ header h2 {
 #icon {
   width: calc(10px + 2vw);
   filter: none;
+  
 
 }
 
 .icon {
   display: flex;
   align-items: center;
-
   padding-top: 10px;
   width: 230px;
-
+ 
   @media screen and (max-width:650px) {
     padding-top: 5px;
     width: 80px;
   }
 }
+
+.iconGithub{
+width: 0;
+}
+ 
 
 .icon img {
   padding-right: 15px;
