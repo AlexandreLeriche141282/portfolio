@@ -373,6 +373,10 @@ footer p {
   text-align: center;
 }
 
+.contact{
+  padding-top: 20px;
+}
+
 
 .contact-form {
   display: flex;
@@ -424,11 +428,13 @@ footer p {
   
 }
 
+
+
 #inputButton {
   background-color: white;
   cursor: pointer;
   text-align: center;
-
+  
   &:hover {
     background-color: rgb(197, 152, 96);
     color: white;
@@ -468,3 +474,4 @@ footer a {
 .img.img2 i:hover {
   color: rgb(197, 152, 96);
 }
+
