@@ -251,10 +251,9 @@ header h2 {
 
 .projects-container {
   margin-top: 100px;
-  
 }
 
-.projects-container img {
+.projects-container  {
 
   /* height: 350px; */
   @media screen and (max-width:650px) {}
@@ -265,14 +264,12 @@ header h2 {
   width: 60vw;
   max-width: 600px;
   margin: 50px 5vw;
-
-
 }
 
 .project::before {
   content: "";
   position: absolute;
-  height: 110%;
+  height: 100%;
   width: 100%;
   top: -3px;
   background: #fefeff;
@@ -296,10 +293,12 @@ header h2 {
 .project img {
   transition: 0.4s ease-out;
   width: 100%;
+  
 }
 
 .project:hover img {
   filter: brightness(20%);
+  scale: 1.05;
 }
 
 .project:hover .project-infos {
@@ -311,7 +310,7 @@ header h2 {
   position: absolute;
   top: 50%;
   transform: translate(-50px, -50%);
-  margin-left: 7vw;
+  margin: 2vw;
   transition: 0.4s ease-out;
   opacity: 0;
 }
@@ -323,10 +322,15 @@ header h2 {
 }
 
 .project-infos p {
-  font-size: calc(1rem + 2vw);
-  margin-top: 1.5vw;
+  font-size: calc(0.2rem + 1vw);
+  margin-top: calc(0.1rem + 1vw);
   color: #fefeff;
 }
+
+.project-infos span{
+  font-weight: 800;
+}
+
 
 #icon {
   width: calc(10px + 2vw);
