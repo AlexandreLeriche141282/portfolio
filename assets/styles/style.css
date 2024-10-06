@@ -190,11 +190,11 @@ header h2 {
 }
 
 .about {
-  margin: 400px 0 250px;
+  margin: 400px 0 200px;
 }
 
 .img1 {
-  background: url(../img/moi.webp) center/cover;
+  background: url(../img/moi\ \(2\).jpg) center/cover;
   width: 50%;
   border-radius: 10px;
 }
@@ -208,12 +208,12 @@ header h2 {
   margin-right: 100px;
 }
 
-.about p {
-  width: 70%;
+.about p,h3 {
+  width: 80%;
   min-width: 280px;
   text-align: center;
   margin: 0 auto;
-  line-height: calc(7px + 4.5vw);
+  line-height: calc(8px + 3.5vw);
   font-size: calc(1rem + 1vw);
   letter-spacing: 1px;
 }
@@ -251,12 +251,6 @@ header h2 {
 
 .projects-container {
   margin-top: 100px;
-}
-
-.projects-container  {
-
-  /* height: 350px; */
-  @media screen and (max-width:650px) {}
 }
 
 .project {
@@ -310,7 +304,7 @@ header h2 {
   position: absolute;
   top: 50%;
   transform: translate(-50px, -50%);
-  margin: 2vw;
+  margin: 1vw;
   transition: 0.4s ease-out;
   opacity: 0;
 }
@@ -322,7 +316,7 @@ header h2 {
 }
 
 .project-infos p {
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.5rem + 0.8vw);
   margin-top: calc(0.1rem + 1vw);
   color: #fefeff;
 }
@@ -358,14 +352,11 @@ width: 0;
 
 .icon img {
   padding-right: 15px;
-
 }
 
 footer {
-  margin: 0 auto 150px;
-  display: flex;
-  max-width: 1200px;
-  min-height: 90vh;
+  margin: 0 auto;
+  max-width: 1600px;
   @media screen  and (max-width:850px) {
     display: block;
   }
@@ -387,9 +378,8 @@ footer p {
   align-items: center;
   background-color: rgba(128, 104, 104, 0.059);
   justify-content: center;
-  margin: 50px;
   border-radius: 10px;
-  width: 500px;
+  width: 700px;
   height: 500px;
   @media screen  and (max-width:850px) {
     margin: 0 auto;
@@ -402,7 +392,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 300px;
+  width: 500px;
   @media screen  and (max-width:850px) {
     width: 200px;
 
@@ -467,7 +457,8 @@ footer a {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  height: 200px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 .img.img2 i {
@@ -479,3 +470,23 @@ footer a {
   color: rgb(197, 152, 96);
 }
 
+.sectionForm{
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+ 
+  }
+  .sectionForm img{
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 650px) {
+    .sectionForm img {
+      display: none; 
+    }
+  }
+  .backFooter{
+    height: 50px;
+    background-color: black;
+  }
